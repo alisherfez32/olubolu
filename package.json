@@ -1,0 +1,43 @@
+{
+  "name": "aaltach",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/moment": "^1.6.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.3",
+    "epic-spinners": "^1.1.0",
+    "firebase": "^9.6.3",
+    "fontawesome": "^5.6.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.13.2",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.48.0",
+    "sass-loader": "^10.2.1"
+  }
+}
